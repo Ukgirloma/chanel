@@ -6,7 +6,7 @@ body{
     display: grid;
     background-color: hsl(30, 38%, 92%);
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1400px) {
     .container{
         width: 40em;
         height: 78vh;
@@ -60,7 +60,7 @@ body{
      }
       .rate{
         display: flex;
-        margin-bottom: 3em;
+    
       }
      .cyan{
         font-family: 'Fraunces';
@@ -81,16 +81,17 @@ body{
             border-radius: 8px;
             width: 100%;
             padding: 15px 0px;
-            margin-top: -20em;
+            margin: 0 auto;
             color: white;
+            margin-bottom: 10px;
             font-size: 14px;
             cursor: pointer;
             font-weight: 700;
+            text-align: center;
             font-family: 'Montserrat', sans-serif;
-    
-
-
 
     }
     
 }
+@media screen and (max-width:600px ) 
+  
