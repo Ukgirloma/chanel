@@ -1,0 +1,86 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-family: 'Montserrat';
+    place-items: center;
+    display: grid;
+    background-color: hsl(30, 38%, 92%);
+}
+@media screen and (max-width: 1440px) {
+    .container{
+        width: 40em;
+        height: 78vh;
+        margin: 15px;
+        border-radius: 15px ;
+        display: flex ;
+        margin-top: 100px;
+        background-color: white;
+    }
+    .image{
+        background: url(./images/image-product-desktop.jpg);
+        background-size: cover;
+        background-position: center center;
+        width: 20em;
+        height: 78vh;
+        border-radius: 12px 0 0 12px ;
+    }
+    .general{
+        margin-left: 20px;
+    }
+    .textcontainer{
+        padding: 0 5% ;
+        border-radius:0 12px 12px 0 ;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 15em;
+    }
+    .title{
+        color: hsl(228, 12%, 48%) ;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0.5em;
+
+    }
+     .header{
+        font-family: 'Fraunces';
+        font-size: 2rem;
+        color: hsl(212, 21%, 14%);
+        font-weight: 700;
+        width: 8em;
+
+     }
+     .text{
+        color: hsl(228, 12%, 48%) ;
+        font-size: 15px;
+        width: 18em;
+     }
+      .rate{
+        display: flex;
+        margin-bottom: 3em;
+      }
+     .cyan{
+        font-family: 'Fraunces';
+        font-size: 2.4rem; 
+        color: hsl(158, 36%, 37%);
+        font-weight: 700;
+        margin: 15px;
+
+     }
+     .strike{
+        color: hsl(228, 12%, 48%) ;
+        text-decoration: line-through;
+     }
+
+    .button{
+        margin-top: -2em;
+        margin-left: 10px;
+        width: 70%;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: hsl(158, 36%, 37%);
+        align-items: center;
+
+    }
+    
+}
