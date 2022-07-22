@@ -48,12 +48,15 @@ body{
         color: hsl(212, 21%, 14%);
         font-weight: 700;
         width: 8em;
+        
+        
 
      }
      .text{
         color: hsl(228, 12%, 48%) ;
         font-size: 15px;
         width: 18em;
+        
      }
       .rate{
         display: flex;
