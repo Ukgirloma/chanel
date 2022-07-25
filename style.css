@@ -102,7 +102,7 @@ body{
           cursor: pointer;
     }
 }
-@media screen and (max-width:600px ) {
+@media screen and (max-width:600px ){
   .container{
     flex-direction: column;
     width: 20em;
@@ -111,13 +111,17 @@ body{
   }  
   .image{
     background-image: url(./images/image-product-mobile.jpg);
-    
+    width: 20em;
+    background-position: top center;
   
     
     
   }
 .textcontainer{
   width: 8em;
+}
+.btn{
+
 }
 }
 
