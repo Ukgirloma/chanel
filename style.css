@@ -25,7 +25,7 @@ body{
         border-radius: 12px 0 0 12px ;
     }
     .general{
-        margin-left: 20px;
+        margin-left: 2em;
     }
     .textcontainer{
         padding: 0 5% ;
@@ -47,7 +47,9 @@ body{
         font-size: 2rem;
         color: hsl(212, 21%, 14%);
         font-weight: 700;
-        width: 8em;
+        width:7.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.4em;
         
         
 
@@ -56,6 +58,7 @@ body{
         color: hsl(228, 12%, 48%) ;
         font-size: 15px;
         width: 18em;
+        line-height: 1.4em;
         
      }
       .rate{
@@ -83,15 +86,39 @@ body{
             padding: 15px 0px;
             margin: 0 auto;
             color: white;
-            margin-bottom: 10px;
+            margin-bottom: 4em;
+            margin-top: 2em;
             font-size: 14px;
-            cursor: pointer;
             font-weight: 700;
             text-align: center;
             font-family: 'Montserrat', sans-serif;
 
     }
-    
+    .btn img{
+      margin-right: 12px;
+    }
+    .btn:hover{
+          background-color: green;
+          cursor: pointer;
+    }
 }
-@media screen and (max-width:600px ) 
+@media screen and (max-width:600px ) {
+  .container{
+    flex-direction: column;
+    width: 20em;
+    
+
+  }  
+  .image{
+    background-image: url(./images/image-product-mobile.jpg);
+    
+  
+    
+    
+  }
+.textcontainer{
+  width: 8em;
+}
+}
+
   
