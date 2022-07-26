@@ -6,7 +6,7 @@ body{
     display: grid;
     background-color: hsl(30, 38%, 92%);
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1900px) {
     .container{
         width: 40em;
         height: 78vh;
