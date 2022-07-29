@@ -1,31 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     width: 100%;
-    margin: 0;
+    height: 100%;
     font-family: 'Montserrat';
-    place-items: center;
+    justify-content: center;
+    align-items: center;
     display: grid;
     background-color: hsl(30, 38%, 92%);
 }
-@media screen and (max-width: 1900px) {
     .container{
-        width: 40em;
-        height: 78vh;
+        width:  80%;
+        height: 60vh;
         margin: 15px;
-        border-radius: 15px ;
+        border-radius: 10px ;
         display: flex ;
-        margin-top: 100px;
-        background-color: white;
+        margin-top: 15%;
+        background: white;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
     }
     .image{
-        background: url(./images/image-product-desktop.jpg);
+        background: url(./images/image-product-desktop.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
-        width: 20em;
-        height: 78vh;
+        width: 100%;
+        height: 100%;
         border-radius: 12px 0 0 12px ;
     }
     .general{
-        margin-left: 2em;
+        padding: 5px;
+        margin-left: 10px;
     }
     .textcontainer{
         padding: 0 5% ;
@@ -33,7 +44,9 @@ body{
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
-        width: 15em;
+        width: 100%;
+        margin-bottom: 0.4em;
+        
     }
     .title{
         color: hsl(228, 12%, 48%) ;
@@ -45,9 +58,9 @@ body{
      .header{
         font-family: 'Fraunces';
         font-size: 2rem;
-        color: hsl(212, 21%, 14%);
+        color: hwb(212 11% 83%);
         font-weight: 700;
-        width:7.5em;
+        width: 90%;
         margin-bottom: 0.5em;
         margin-top: 0.4em;
         
@@ -57,12 +70,13 @@ body{
      .text{
         color: hsl(228, 12%, 48%) ;
         font-size: 15px;
-        width: 18em;
+        width: 100%;
         line-height: 1.4em;
         
      }
       .rate{
         display: flex;
+        margin: auto;
     
       }
      .cyan{
@@ -80,14 +94,12 @@ body{
 
       .btn{
             background-color: hsl(158, 36%, 37%);
-            border: none;
+            border: 0;
             border-radius: 8px;
-            width: 100%;
-            padding: 15px 0px;
+            width: 90%;
+            padding: 5%;
             margin: 0 auto;
             color: white;
-            margin-bottom: 4em;
-            margin-top: 2em;
             font-size: 14px;
             font-weight: 700;
             text-align: center;
@@ -95,24 +107,26 @@ body{
 
     }
     .btn img{
-      margin-right: 12px;
+      margin-right: 10px;
     }
     .btn:hover{
-          background-color: green;
+          background-color: hsl(158, 47%, 21%)
+          ;
           cursor: pointer;
     }
-}
+
 @media screen and (max-width:600px ){
   .container{
     flex-direction: column;
-    width: 20em;
+    width: 100%;
+    height: 80vh;
     
 
   }  
   .image{
     background-image: url(./images/image-product-mobile.jpg);
     width: 100%;
-    height: 88vh;
+    height: 100%;
     background-position: top center;
     border-radius:12px 12px 0 0;
   
@@ -120,18 +134,26 @@ body{
     
   }
 .textcontainer{
-  width: 8em;
+  width: 100%;
+  height: 50vh;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 0 0 12px 12px;
   height: auto;
-  margin-left: 5px;
-  margin-right: 6px;
+  margin-left: 10px;
+  margin-right: 15px;
 }
 .btn{
     margin-right: 10px;
-    width: 90%;
+    width: 95%;
 }
+.title{
+    margin-top: 10px;
+}
+.text{
+    width: 100%;
+}
+
 }
 
   
